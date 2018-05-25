@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Form Sample</title>
+</head>
+<body>
+    
+    <form method="POST" action="https://formspree.io/pohonchuk@gmail.com">
+        <fieldset>
+            <legend>Personal information:</legend>
+        <label for="client-name">Name:</label>
+        <input type="text" id="client-name" placeholder="Name"
+         name="client-name" required>
+        <br> 
+        <label>Email:
+            <input type="email" placeholder="Email"
+             name="client-email" required>
+        </label> 
+        <br>
+        <label>Gender:</label>
+        <label>
+            <input type="radio" name="gender" value="male">Male
+        </label>
+        <label>
+            <input type="radio" name="gender" value="female">Female
+        </label>
+        <label>
+            <input type="radio" name="gender" value="other" checked>Other
+        </label>
+        <input type="submit" value="Send">
+        <input type="reset">
+        </fieldset>
+        <h2>Choose your option</h2>
+<p>1.Who is the most smartest dog in the World for you?</p>
+
+  <select name="dogs 1">
+    <option value="border collie">Border Collie</option>
+    <option value="poodle">Poodle</option>
+    <option value="german shepherd">German Shepherd</option>
+    <option value="labrador">Labrador</option>
+  </select>
+  <p>2.The most beautiful dog for you is:</p>
+    <select name="dogs 2">
+    <option value="border collie">Border Collie</option>
+    <option value="poodle">Poodle</option>
+    <option value="german shepherd">German Shepherd</option>
+    <option value="labrador">Labrador</option>
+  </select>
+  <p>3.The most attentive dog is:</p>
+    <select name="dogs 3">
+    <option value="border collie">Border Collie</option>
+    <option value="poodle">Poodle</option>
+    <option value="german shepherd">German Shepherd</option>
+    <option value="labrador">Labrador</option>
+  </select>
+  <h3>Your own Opinion</h3>
+  <textarea name="message" rows="10" cols="30">Please describe the best Breed of Dogs for Сhildren</textarea>
+    </form>
+   
+</body>
+</html>
